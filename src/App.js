@@ -17,12 +17,18 @@ function App() {
           <img src={githubLogo} alt="GitHub Logo" />
         </a>
       </header>
-      <div>
+      <div className="Project-area">
         <ProjectCard 
           title="Capstone Project" 
           description="A web and desktop app for adding events from a file to a Google Calendar" 
           link="https://github.com/tyler60918/s25-syncineers" 
           image={capImg} 
+        />
+        <ProjectCard
+          title="Wack-A-Mole"
+          description="A simple wack-a-mole program that automatically wacks the mole using multi-threading."
+          link="https://github.com/tyler60918/cs452-hw4/"
+          image=""
         />
       </div>
       
