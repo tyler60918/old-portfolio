@@ -1,4 +1,5 @@
 import './App.css';
+import { Analytics } from "@vercel/analytics/react"
 import ProjectCard from './ProjectCard';
 import capImg from './assets/capstone_logo.png';
 import githubLogo from './assets/github-mark.svg';
@@ -45,7 +46,7 @@ function App() {
           image=""
         />
       </div>
-      
+      <Analytics />
     </div>
   );
 }
