@@ -1,4 +1,4 @@
-import githubLogo from './assets/github-mark.svg';
+import githubLogo from '../assets/github-mark.svg';
 
 function Header() {
   return (

@@ -1,7 +1,7 @@
 import ProjectCard from './ProjectCard';
-import capImg from './assets/capstone_logo.png';
-import wamImg from './assets/wam.png';
-import terminalImg from './assets/terminal-logo.png';
+import capImg from '../assets/capstone_logo.png';
+import wamImg from '../assets/wam.png';
+import terminalImg from '../assets/terminal-logo.png';
 
 function Projects() {
   return (
